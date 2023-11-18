@@ -1,0 +1,83 @@
+:root {
+    --background: #C2D3CD; 
+    --frame: #9FA4A9;  
+    --button-color: #56494C; 
+}
+
+* {
+    font-family:Helvetica, sans-serif;
+    line-height: 1.2rem;
+}
+
+#api-container {
+    background-color: var(--button-color); 
+    display: flex; 
+    margin-bottom: 2rem;
+    border: .1rem solid var(--frame);
+}
+
+#api-key-input { width: 80%; 
+    font-family: Helvetica, sans-serif;    
+}
+
+#chat-container{
+    display: flex; 
+}
+
+body{
+    height: 80vh; 
+    background-color: var(--background); 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    border: .1rem solid var(--frame); 
+    outline: none; 
+    height 50px; 
+    height: 2rem; 
+    width: 100%; 
+    
+   
+}
+
+button {
+    outline:  none; 
+    background-color: none; 
+    border: none;
+    color: var(--button-color);
+    font-family: Arial, Helvetica, sans-serif; 
+
+}
+
+#chat-log{
+    border: 2px solid var(--frame); 
+    background-color: white;
+    width: 80vw;
+    height: 400px;
+    font: font-family: Helvetica, sans-serif; 
+    color: var(--button-color);
+    overflow-y: auto;
+
+}
+#search-container {
+    border: 2px solid var(--frame);
+}
+
+#user-input {
+    width: 80%; 
+border: none; }
+
+.search-button {
+    background-color: transparent;
+    font-size: 100%;
+    color: white; 
+}
+
+.api-button {
+    background-color: transparent; 
+    color: white
+
+}
